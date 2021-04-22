@@ -10,14 +10,18 @@ const Portfolio = () => {
     </div>
     <div class="portfolio__container">
       <div class="portfolio-item">
-        <div class="portfolio-card-info">
-          <div><h1>Spuntify</h1></div>
-          <div><h3><a href="https://jjguitar.github.io/spuntify/" target="_BLANK">Demo</a></h3><h3><a href="https://github.com/jjguitar/spuntify" target="_BLANK">Code</a></h3></div>
-          <div><h4>JavaScript</h4><h4>HTML</h4><h4>CSS</h4></div>
-        </div>
-        <div class="portfolio-card">
-          <img src="${pr1}" width="320" height="200">
-        </div>
+        <ul>
+          <li>
+            <div class="portfolio-card">
+              <img src="${pr1}" width="320" height="200">
+            </div>
+            <div class="portfolio-card-info">
+              <div><h1>Spuntify</h1></div>
+              <div><h3><a href="https://jjguitar.github.io/spuntify/" target="_BLANK">Demo</a></h3><h3><a href="https://github.com/jjguitar/spuntify" target="_BLANK">Code</a></h3></div>
+              <div><h4>JavaScript</h4><h4>HTML</h4><h4>CSS</h4><h4>API</h4></div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   `
