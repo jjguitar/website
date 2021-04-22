@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
-#iam {
+#hero {
+  // display: none;
   height:100%;
 }
 
-body #iam .iam {
-  // background-image: url('../img/landscape.jpg');
+.hero {
   width: 100vw;
   min-width: 320px;
   max-width: 100%;
@@ -30,7 +30,7 @@ body #iam .iam {
   }
 }
 
-.iam__divider-container {
+.hero__divider-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,12 +52,13 @@ body #iam .iam {
   background: white;
 }
 
-.iam__social-media {
+.hero__social-media {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 50%;
   height:50px;
   margin: 0 auto;
+  margin-bottom: 140px;
   align-items: center;
   a {
     align-self: center;
@@ -67,4 +68,32 @@ body #iam .iam {
   }
 }
 
+.arrow__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
+.arrow-down {
+  width: 20px;
+  height: 20px;
+  transform: rotate(-45deg);
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  animation: bounce 1s infinite linear;
+}
+
+@keyframes bounce{
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 249px;
+    width: 30px;
+    height: 30px;
+  }
+  100% {
+    top: 0px;
+  }
+}
