@@ -28,7 +28,7 @@ const hero = () => {
         </a>
       </div>
       <div class="arrow__container">
-        <div class="arrow-down"></div>
+        <a href="#about"><div class="arrow-down"></div></a>
       </div>
     </div>
   `

@@ -1,8 +1,8 @@
 .about {
-  padding: 60px 30px;
+  padding: 60px 30px 30px;
   // padding-top: 60px;
   line-height: 1.7;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
   background: radial-gradient(50% 50% at 50% 50%,rgba(26,21,21,0) 0,rgba(37,4,4,.16) 100%),#fff;
   background-position: center;
   background-attachment: scroll;
@@ -12,13 +12,29 @@
     margin: 30px 0;
   }
   h2 {
+    position: relative;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 3px;
     font-size: 2rem;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
-    border-left: 3px solid rgba(0, 0, 0, 0.3);
-    padding: 0 0 5px 15px;
+    padding: 10px 35px;
     width: 60%;
+    img {
+      position: absolute;
+      left: 0;
+      opacity: 0.4;
+    }
+  }
+  .line-divider {
+    background-color: black;
+  }
+  span::before {
+    color: black;
+  }
+  .hero__divider-container {
+    margin-bottom: 50px;
+  }
+  .about__details {
+    margin-bottom: 60px;
   }
 }
 
@@ -28,7 +44,7 @@
   text-align: center;
 }
 
-.about__title {
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
