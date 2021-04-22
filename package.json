@@ -1,23 +1,36 @@
 {
-  "name": "newProjectJS",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "my personal website",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack serve --open --mode development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MTI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjguitar/website.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "@codejjguitar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjguitar/website/issues"
+  },
+  "homepage": "https://github.com/jjguitar/website#readme",
   "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "babel-loader": "^8.1.0",
-    "copy-webpack-plugin": "^6.0.3",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
