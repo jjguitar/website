@@ -1,6 +1,7 @@
 const path = require("path");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = {
   entry: "./src/index.js",
@@ -22,7 +23,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|gif|jpg|svg)$/,
+        test: /\.(PNG|png|gif|jpg|svg)$/,
         use: [
           {
             loader: 'file-loader',
@@ -45,6 +46,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new FaviconsWebpackPlugin('./src/assets/img/codejjguitar-black.png'),
     new HtmlWebpackPlugin({
       inject: true,
       template: "./public/index.html",

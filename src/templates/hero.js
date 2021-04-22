@@ -6,7 +6,7 @@ import instagram from '../assets/img/instagram.svg'
 
 const hero = () => {
   return `
-    <div class="hero" style="background: linear-gradient(0deg,rgba(0,0,0,.7),rgba(19,19,19,.7) 75%,rgba(33,33,33,.7)),url(${background}); background-position: center;background-attachment: scroll; background-repeat: no-repeat;">
+    <div class="hero" style="background: linear-gradient(0deg,rgba(0,0,0,.7),rgba(19,19,19,.7) 75%,rgba(33,33,33,.7)),url(${background}); background-position: center;background-attachment: scroll; background-repeat: no-repeat; background-size: cover;">
       <h1>Hey, I'm Jhon</h1>
       <h2>Front End developer</h2>
       <div class="hero__divider-container">
