@@ -38,6 +38,13 @@ body::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
 
+.logo {
+  margin-top: 6px;
+  margin-left: 30px;
+  position: absolute;
+  z-index: 5;
+}
+
 .hamburger_menu {
   width: 35px;
   height: 30px;
@@ -102,7 +109,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 1px;
-  text-transform: uppercase;
   position: relative;
   color: white;
   padding: 3px 0;
@@ -142,4 +148,25 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 53px;
   background-color:black;
+}
+
+@media (min-width: 500px) and (orientation: landscape) {
+  .hamburger_menu {
+    display: none;
+  }
+  .navbar {
+    position: relative;
+    right: 0;
+    height: 53px;
+    justify-content: flex-end;
+    .nav-list {
+      display: flex;
+      margin-top: 0;
+      padding-right: 30px;
+    }
+  }
+  .nav-item {
+    margin: 0;
+    margin-left: 25px;
+  }
 }

@@ -97,3 +97,15 @@
     top: 0px;
   }
 }
+
+@media (min-width: 500px) and (orientation: landscape) {
+
+  .hero {
+    h1{
+      padding-top: 20vh;
+    }
+    .hero__social-media {
+      margin-bottom: 30px;
+    }
+  }
+}

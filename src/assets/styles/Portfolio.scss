@@ -20,6 +20,7 @@
     height: 100%;
     ul {
       width: 100%;
+      max-width: 570px;
       height: 100%;
     }
     li {
@@ -90,6 +91,23 @@
       -o-transition: opacity 300ms;
       -ms-transition: opacity 300ms;
       transition: opacity 300ms;
+    }
+  }
+}
+
+@media (min-width: 820px) and (orientation: landscape) {
+  .portfolio__container {
+    .portfolio-item {
+      ul {
+        background: #2c0d0d;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 30px;
+        max-width: 100%;
+        li {
+          height:100%;
+        }
+      }
     }
   }
 }

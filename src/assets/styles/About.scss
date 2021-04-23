@@ -6,7 +6,15 @@
   background: radial-gradient(50% 50% at 50% 50%,rgba(26,21,21,0) 0,rgba(37,4,4,.16) 100%),#fff;
   background-position: center;
   background-attachment: scroll;
+  .about__work {
+    display: flex;
+    flex-direction: column;
+    max-width:365px;
+    margin: 0 auto;
+  }
   p {
+    display: flex;
+    justify-content: center;
     font-size: 1.5rem;
     text-align: justify;
     margin: 30px 0;
@@ -34,6 +42,7 @@
     margin-bottom: 50px;
   }
   .about__details {
+    max-width: 365px;
     margin-bottom: 60px;
   }
 }
@@ -57,4 +66,24 @@
   font-family: 'Open Sans Condensed', sans-serif;
   letter-spacing: 3px;
   font-size: 2rem;
+}
+
+@media (min-width: 820px) and (orientation: landscape) {
+  .about-container__work {
+    display: grid;
+    width: 760px;
+    margin: 0 auto;
+    column-gap: 20px;
+    grid-template-areas: 'design design'
+    'development maintenance';
+  }
+  .about__work:nth-child(1) {
+    grid-area: design;
+  }
+  .about__work:nth-child(2) {
+    grid-area: development;
+  }
+  .about__work:nth-child(3) {
+    grid-area: maintenance;
+  }
 }

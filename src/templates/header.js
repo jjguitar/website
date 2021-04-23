@@ -1,7 +1,9 @@
+import logo from '../assets/img/codejjguitar-black.png'
 import '../assets/styles/Header.scss';
 
 const Header = () => {
   return `
+      <img class="logo" src="${logo}" width="40" height="40" alt="logo">
       <nav class="navbar">
       <div class="hamburger_menu">
         <div class="line line-1"></div>
