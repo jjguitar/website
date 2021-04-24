@@ -8,10 +8,12 @@ const About = () => {
     <div class="title__container">
       <h1 class="title">ABOUT ME</h1>
     </div>
-    <p>Hi there 👋 <br>
-    Heyy!! It's me Jhon Trillos, developer, tech lover and continuous student.
-    <br>
-    I’m currently working on Sotfware Company with Financial tech.</p>
+    <p class="about__me_details">Hi there 👋 <br><br>
+    Soy Jhon Trillos, Front End developer, apasionado por la tecnología y una persona que está aprendiendo constantemente. Hace más de 4 años que trabajo en una startup de banca financiera desarrollando y liderando proyectos en las principales entidades bancarias de mi país.
+    
+    Electrónico de profesión con más de 7 años de experiencia en el área de desarrollo.</p>
+    <p class="about__me_details">Me considero una persona constante y muy persistente. Si gustas, mira <a href="#portfolio">mi trabajo</a>, si te gusta y tienes una idea, charlemos (<a href="https://www.instagram.com/codejjguitar" target="_blank">instagram</a>, <a href="https://www.linkedin.com/in/jhon-jairo-enrique-trillos-alvarez-68b128148/" target="_blank">
+    linkedin</a>), tengo a tu disposición muchas herremientas para hacerla realidad.</p>
     <div class="hero__divider-container">
       <div class="line-divider"></div>
       <span></span>
