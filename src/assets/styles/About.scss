@@ -1,5 +1,5 @@
 .about {
-  padding: 60px 30px 30px;
+  padding: 80px 30px 30px;
   // padding-top: 60px;
   line-height: 1.7;
   letter-spacing: .1rem;
@@ -83,6 +83,9 @@
     --title__main: 2.2rem;
     --padding__border: 3rem;
     --paragraph__size: 1.8rem;
+  }
+  .about {
+    padding: 80px 0px 30px;
   }
   .about-container__work {
     display: grid;

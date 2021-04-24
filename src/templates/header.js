@@ -7,11 +7,11 @@ const Header = () => {
     let header = document.getElementById('header');
     let screenSize = window.innerHeight;
     // console.log(elements)
-    console.log(`size ${screenSize}`)
+    // console.log(`size ${screenSize}`)
       for(var i = 0; i < elements.length; i++) {
         let element = elements[i];
-        console.log(element.getBoundingClientRect().bottom)
-        if(element.getBoundingClientRect().bottom < screenSize) {
+        // console.log(element.getBoundingClientRect().bottom)
+        if(element.getBoundingClientRect().bottom < screenSize - 20) {
           header.classList.add('visible');
         } else {
           header.classList.remove('visible');

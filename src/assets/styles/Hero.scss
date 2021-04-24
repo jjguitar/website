@@ -12,7 +12,8 @@
   width: 100vw;
   min-width: 320px;
   max-width: 100%;
-  height: 100vh;
+  max-height: 100vh;
+  min-height: 300px;
   color: white;
   text-align: center;
   h1 {
@@ -114,6 +115,14 @@
     }
     .hero__social-media {
       margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 820px) and (min-height: 355px) and (orientation: landscape) {
+  .hero {
+    h1 {
+      font-size: 9rem;
     }
   }
 }
