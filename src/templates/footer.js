@@ -10,7 +10,7 @@ const footer = () => {
         <polygon class="arrow-bottom" points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "/>
       </svg>
     </a>
-    <p class="contact__me">Do you want to work with me? Contact me through of my social medias</p>
+    <p class="contact__me">Do you want to work with me? Contact me by my social media.</p>
     ${Social()}
     <span>@2021 Jhon Trillos</span> All Rights Reserved.
   `

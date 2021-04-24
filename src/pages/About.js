@@ -9,11 +9,10 @@ const About = () => {
       <h1 class="title">ABOUT ME</h1>
     </div>
     <p class="about__me_details">Hi there 👋 <br><br>
-    Soy Jhon Trillos, Front End developer, apasionado por la tecnología y una persona que está aprendiendo constantemente. Hace más de 4 años que trabajo en una startup de banca financiera desarrollando y liderando proyectos en las principales entidades bancarias de mi país.
-    
-    Electrónico de profesión con más de 7 años de experiencia en el área de desarrollo.</p>
-    <p class="about__me_details">Me considero una persona constante y muy persistente. Si gustas, mira <a href="#portfolio">mi trabajo</a>, si te gusta y tienes una idea, charlemos (<a href="https://www.instagram.com/codejjguitar" target="_blank">instagram</a>, <a href="https://www.linkedin.com/in/jhon-jairo-enrique-trillos-alvarez-68b128148/" target="_blank">
-    linkedin</a>), tengo a tu disposición muchas herremientas para hacerla realidad.</p>
+    I'm Jhon Trillos, Front End developer, passionate about technology and a person who is constantly learning. For more than 4 years I've been working on a financial banking startup developing and leading projects for the main bank entities of my country.</p><br>
+    <p class="about__me_details">Electronic engineer with more than 7 years of experience  on the development area.</p><br>
+    <p class="about__me_details">I think I'm a constant and persistent person. If you like, take a look of <a href="#portfolio">my work</a>, and if you like it and you have an idea let's talk (<a href="https://www.instagram.com/codejjguitar" target="_blank">instagram</a>, <a href="https://www.linkedin.com/in/jhon-jairo-enrique-trillos-alvarez-68b128148/" target="_blank">
+    linkedin</a>), i have many tools at your disposal to make it real.</p>
     <div class="hero__divider-container">
       <div class="line-divider"></div>
       <span></span>
@@ -34,7 +33,7 @@ const About = () => {
       </div>
       <div class="about__work">
         <h2><img src="${maintenance}" width="30" height="30">Maintenance</h2>
-        <p class="about__details">In case of any problems or the need for changes, I can introduce new functionalities and solutions.
+        <p class="about__details">In case of any problems or changes need, I can introduce new functionalities and solutions.
         </p>
       </div>
     </div>

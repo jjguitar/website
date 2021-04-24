@@ -132,7 +132,7 @@ body::-webkit-scrollbar-thumb {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: rgb(44, 13, 13);
+  background-color: rgb(134, 120, 120);
   position: absolute;
   left: 0;
   transform: scaleX(0);
@@ -161,14 +161,22 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 53px;
   background-color:black;
+  transform: translateY(0);
+  transition: transform .5s;
 }
 
 @media (min-width: 500px) and (orientation: landscape) {
   .header {
     background: transparent;
+    height: 70px;
+    .logo {
+      margin: 20px 0 0 60px;
+    }
   }
   .visible {
     background: black;
+    transform: translateY(-10px);
+    transition: transform .5s;
   }
   .hamburger_menu {
     display: none;
@@ -177,8 +185,9 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     background: transparent;
     right: 0;
-    height: 53px;
+    height: 80px;
     justify-content: flex-end;
+    padding-right: 40px;
     .nav-list {
       display: flex;
       margin-top: 0;
@@ -188,5 +197,8 @@ body::-webkit-scrollbar-thumb {
   .nav-item {
     margin: 0;
     margin-left: 25px;
+    .nav-link {
+      font-weight: 500;
+    }
   }
 }

@@ -87,9 +87,9 @@
   .about-container__work {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
-    column-gap: 80px;
+    column-gap: 40px;
     grid-template-areas: 'design development'
     'maintenance maintenance';
   }
@@ -113,7 +113,7 @@
       max-width: 380px;
     }
     .about__me_details {
-      max-width: 80%;
+      max-width: 60%;
     }
   }
 }
